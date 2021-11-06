@@ -50,10 +50,14 @@ docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-web
 ```
 
 ```sh
+## View all running containers
+docker ps -a
 ## Docker stop the container
 docker stop <container-id>
 ## Docker remove the image
 docker rm <container-id>
+## View logs
+docker logs <container-id>
 ```
 
 
