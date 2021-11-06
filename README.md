@@ -43,3 +43,5 @@ For example:
 
 * https://medium.com/proofdock/introduce-a-chaos-middleware-for-python-flask-simulate-disruptions-to-improve-resiliency-aa3aad25ecd2
 * https://stackoverflow.com/questions/21070369/importerror-no-module-named-virtualenv
+* https://joachim8675309.medium.com/jenkins-ci-pipeline-with-python-8bf1a0234ec3
+* https://stackoverflow.com/questions/50916740/docker-command-not-found-in-local-jenkins-multi-branch-pipeline
