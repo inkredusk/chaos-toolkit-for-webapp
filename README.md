@@ -25,3 +25,8 @@ For example:
 ```sh
 (env) admin@Karans-MacBook-Pro chaos-toolkit-for-webapp % pip3 freeze > requirements.txt
 ```
+
+#### Reference links
+
+* https://medium.com/proofdock/introduce-a-chaos-middleware-for-python-flask-simulate-disruptions-to-improve-resiliency-aa3aad25ecd2
+* https://stackoverflow.com/questions/21070369/importerror-no-module-named-virtualenv
