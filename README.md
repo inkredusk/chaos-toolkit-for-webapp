@@ -45,3 +45,6 @@ For example:
 * https://stackoverflow.com/questions/21070369/importerror-no-module-named-virtualenv
 * https://joachim8675309.medium.com/jenkins-ci-pipeline-with-python-8bf1a0234ec3
 * https://stackoverflow.com/questions/50916740/docker-command-not-found-in-local-jenkins-multi-branch-pipeline
+* https://stackoverflow.com/questions/50916740/docker-command-not-found-in-local-jenkins-multi-branch-pipeline
+* https://pythonspeed.com/articles/activate-virtualenv-dockerfile/
+* https://www.javacodemonk.com/flask-in-production-part-3-6f14a256
