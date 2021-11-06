@@ -43,8 +43,17 @@ For example:
 List of Docker commands to use
 
 ```sh
+## Build the image
 docker build -t chaos-toolkit-for-webapp
+## Run the docker image
 docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-webapp
+```
+
+```sh
+## Docker stop the container
+docker stop <container-id>
+## Docker remove the image
+docker rm <container-id>
 ```
 
 
@@ -57,3 +66,4 @@ docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-web
 * https://stackoverflow.com/questions/50916740/docker-command-not-found-in-local-jenkins-multi-branch-pipeline
 * https://pythonspeed.com/articles/activate-virtualenv-dockerfile/
 * https://www.javacodemonk.com/flask-in-production-part-3-6f14a256
+* https://www.youtube.com/watch?v=nfLO5ONVI6E&ab_channel=CloudBeesTV
