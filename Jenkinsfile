@@ -8,15 +8,5 @@ pipeline {
          }
       }
     }
-    stage('run server') {
-      steps {
-        sh 'python app.py'
-      }   
-    }
-    stage('run chaos experiments') {
-      steps {
-        sh 'chaos --verbose run experiment.json'
-      }   
-    }
   }
 }
