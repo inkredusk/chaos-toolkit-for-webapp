@@ -4,12 +4,12 @@ pipeline {
     stage('Build Docker') {
       steps {
          // build the docker image from the source code using the BUILD_ID parameter in image name
-         sh "sudo docker build -t chaos-toolkit-for-webapp ."
+         sh "docker build -t chaos-toolkit-for-webapp ."
       }
     }
     stage("run docker container") {
       steps {
-        sh "sudo docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-webapp"
+        sh "docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-webapp"
       }
     }
     stage('run chaos experiments') {
