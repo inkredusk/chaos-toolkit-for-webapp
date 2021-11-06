@@ -1,14 +1,27 @@
 # chaos-toolkit-for-webapp
 using chaos toolkit for flask based web app
 
+#### Clone the repo
 
-#### Running the app
+#### Create the virtual environment
 
-To run the app use the following commands from a terminal
+```sh
+virtualenv env --python=python3
+```
+
+#### Run the app
+
+To run the Flask app use the following commands from a terminal
 
 ```sh
 source env/bin/activate
 python app.py
+```
+To run the Chaos experiments use the following commands from a terminal
+
+```sh
+chaos run experiment.json
+chaos --verbose run experiment.json # In verbose mode
 ```
 
 #### Generating requirements.txt file
