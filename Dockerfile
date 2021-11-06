@@ -1,4 +1,5 @@
 FROM python:3.9
+WORKDIR /
 ENV VIRTUAL_ENV=env
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
