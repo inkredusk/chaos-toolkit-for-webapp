@@ -1,12 +1,5 @@
 pipeline {
   
-  agent { 
-    docker {  
-       image 'docker'
-       args '-v /var/run/docker.sock:/var/run/docker.sock' 
-    } 
-  }
-
   environment {
      PATH = "$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Docker.app/Contents/Resources/bin"
   }
