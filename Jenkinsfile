@@ -1,5 +1,7 @@
 pipeline {
-  
+
+  agent { label "chaos-pipeline" }
+
   environment {
      PATH = "$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Docker.app/Contents/Resources/bin"
   }
