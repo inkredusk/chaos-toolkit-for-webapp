@@ -38,6 +38,15 @@ For example:
 ```sh
 (env) admin@Karans-MacBook-Pro chaos-toolkit-for-webapp % pip3 freeze > requirements.txt
 ```
+#### Docker commands
+
+List of Docker commands to use
+
+```sh
+docker build -t chaos-toolkit-for-webapp
+docker run -p 5002:5002 --name chaos-toolkit-for-webapp -d chaos-toolkit-for-webapp
+```
+
 
 #### Reference links
 
