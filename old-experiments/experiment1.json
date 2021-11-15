@@ -33,32 +33,6 @@
     "method": [
         {
             "type": "probe",
-            "name": "website must return 500",
-            "tolerance": 500,
-            "provider": {
-                "type": "http",
-                "url": "http://localhost:5002/return-failure",
-                "timeout": [
-                    3,
-                    5
-                ],
-                "method": "GET",
-                "headers": {
-                    "x-proofdock-attack": "{'actions':[{'name':'fault','value':'Exception'}]}"
-                }
-            },
-            "controls": [
-                {
-                    "name": "proof-dock-attack",
-                    "provider": {
-                        "type": "python",
-                        "module": "proofdock.control"
-                    }
-                }
-            ]
-        },
-        {
-            "type": "probe",
             "name": "website must return 200 with json response",
             "tolerance": {
                 "type": "jsonpath",
